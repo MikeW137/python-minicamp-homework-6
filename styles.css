@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+.navbar{
+  background-color:red;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonbar{
+  background:black;
+  height: 40px;
+  width: 75%;
+  maring-left: 10%;
+}
+.buttonbar:hover{
+  background: white;
+}
+
+.maincontent{
+  height:700px;
+  background: blue;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.footer{
+  height:100px;
+  background-color: green;
+}
+
+.boxes{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: -35px;
+}
+.box{
+  background: yellow;
+  height:100px;
+  width: 100px;
+  list-style: none;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.box:hover{
+  background: purple;
+}
